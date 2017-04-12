@@ -1,5 +1,5 @@
 [requires]
-catch/1.3.0@TyRoXx/stable
+catch/1.5.0@TyRoXx/stable
 
 [generators]
 cmake
