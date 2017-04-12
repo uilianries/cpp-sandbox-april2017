@@ -1,3 +1,0 @@
-namespace timerTest {
-	void printTest();
-}

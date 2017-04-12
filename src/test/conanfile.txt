@@ -1,6 +1,6 @@
 [requires]
-Poco/1.7.5@lasote/stable
 catch/1.5.0@TyRoXx/stable
 
 [generators]
 cmake
+	
