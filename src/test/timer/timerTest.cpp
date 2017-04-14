@@ -1,8 +1,8 @@
 #include <iostream>
 #include "timer/timer.h"
-#include "catch_main.cpp"
 #include "timerTest.h"
 #include "catch.hpp"
+#define CATCH_CONFIG_MAIN
 
 using namespace std;
 
