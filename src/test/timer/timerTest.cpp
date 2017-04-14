@@ -1,5 +1,6 @@
 #include <iostream>
-#include "../../main/timer/timer.h"
+#include "timer/timer.h"
+#include "catch_main.cpp"
 #include "timerTest.h"
 #include "catch.hpp"
 
