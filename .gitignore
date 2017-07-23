@@ -29,6 +29,8 @@
 *.app
 
 # Directories
+build
+__pycache__
 bin*
 .vs
 .vscode*

@@ -1,7 +1,8 @@
-project(MasterProjects)
-cmake_minimum_required(VERSION 2.8.12)
+project(AgentMaster)
+cmake_minimum_required(VERSION 3.5)
+
 include(${PROJECT_SOURCE_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
-add_subdirectory(src/main/timer)
-add_subdirectory(src/test/timer)
-add_subdirectory(src/test/catch_main)
+
+add_subdirectory(src)
+
