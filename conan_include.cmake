@@ -7,6 +7,7 @@ endif()
 
 include(${CMAKE_BINARY_DIR}/conan.cmake)
 
-conan_cmake_run(REQUIRES CONANFILE conanfile.txt
+conan_cmake_run(CONANFILE conanfile.txt
                 BASIC_SETUP 
+				BUILD MISSING
                 )
