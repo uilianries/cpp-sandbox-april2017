@@ -1,5 +1,5 @@
 [requires]
-Boost/1.62.0@lasote/stable
+Catch/1.9.3@uilianries/ci
 
 [generators]
 cmake
