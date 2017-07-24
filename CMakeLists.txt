@@ -1,8 +1,7 @@
 project(Master)
 cmake_minimum_required(VERSION 3.5)
 
-include(${PROJECT_SOURCE_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
+include(conan_include.cmake)
 
 add_subdirectory(src)
 
