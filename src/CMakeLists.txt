@@ -6,6 +6,6 @@ add_executable(timer_lib_exe
 	)
 
 target_link_libraries(timer_lib_exe 
-	${CONAN_LIBS}
+	CONAN_PKG::Boost
 	)
 
