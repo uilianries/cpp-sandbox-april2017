@@ -1,11 +1,11 @@
 project(TimerLibImpl)
 cmake_minimum_required(VERSION 3.5)
 
-add_executable(timer_lib_exe 
-	core/main.cpp 
+add_library(timer_lib_impl 
+	core/timer_lib_core.cpp
 	)
 
-target_link_libraries(timer_lib_exe 
+target_link_libraries(timer_lib_impl 
+	timer_lib 
 	CONAN_PKG::Boost
 	)
-
